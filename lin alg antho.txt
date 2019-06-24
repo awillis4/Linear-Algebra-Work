@@ -1,0 +1,888 @@
+Assignment 1
+
+§1.1
+In Exercises 8 and 10, find a parametric representation of the solution set of the
+linear equation.
+
+(8) 3x −1/2y = 9
+
+a. 1/2y=3t-9; 3x=9+t/2
+b. y=6(t-3);  x=3+t/6
+
+(10) 12x + 24y − 36z = 12
+a.     x+2y+3z=1
+b.x=1-2y-3z;y=(1-x-3z)/2;z=(1-x-2y)/3
+c. y=1-1+2y+3z-3z/2=2y/2
+
+Why did you not grade the rest of my paper?
+
+In Exercises 38 and 54, solve the system of linear equations.
+(38) (
+3x + 2y = 2
+6x + 4y = 14
+
+a. 6x+4y=4;6x+4y=14
+b. Since 0=10, this graph is inconsistent.
+
+(54) (
+ x −2y +5z =  2
+3x +2y − z = −2
+
+a. 4x+0+4z=0, 4(x+z)=0, x=-z
+b. 2x+4y-6z=-4
+c.  x+2y-3z=-2, -x-2y+3z=2,
+d.  x+2y+3x=4x+2y=-2
+e.  2x+y=-1, y=-1-2x, x=-(1-y)/2.
+
+(68) Two planes start from Los Angeles International Airport and fly in opposite
+directions. The second plane starts 1/2 hour after the first plane, but its speed is 80
+kilometers per hour faster. Two hours after the first plane departs, the planes are
+3200 kilometers apart. Find the airspeed of each plane.
+
+a. 3200k/2t=(g+80)kt+t/2
+b. 1600k/t=t(g+80)k+1/2
+c. 1600k/tt-(g+80)k=1/2
+d. (1600/tt-(g+80))=1/2k
+e. 1600/tt=1/2k+g+80
+f. g=1600/tt-1/2k-80
+
+g. g1((s+80k/t)+1/2t)+g2(s)=1600k
+h. s=1600k-g2s/g1-1/2t-80kt
+i. (g1-g2)t=80k+1/2=1600kt
+j. 1600kt-80k-1/2=k(20t-1)-1/160
+k. k=t(g1-g2)/((20t-1)-1/160)
+
+l. 1/2t=40k. 
+m. g1(s+40k)+g2(s)=1600k
+n. 2s=(1600-40)k=1560k
+o. s1=780k/t, s2=820k/t. 
+
+(70) Determine whether each statement is true or false. If a statement is true,
+give a reason or cite an appropriate statement from the text. If a statement is
+false, provide an example that shows the statement is not true in all cases or cite
+an appropriate statement from the text.
+
+(a) A linear system can have exactly two solutions.
+Not if the system has >2 perameters.
+
+(b) Two systems of linear equations are equivalent when they have the same
+solution set.
+Although reduced it is true, the original fs take different forms in diff eq, so no.
+
+(c) A system of three linear equations in two variables is always inconsistent.
+Simple subtraction of f2-f1 and f3-(f2-f1) can reduce this function into a single function.
+
+These are all false.
+
+(90) Consider the system of linear equations in x and y.
+ax + by = e
+cx + dy = f
+Under what conditions will the system have exactly one solution?
+When c,d,f are dilations of a,b,c.
+
+§1.2
+In Exercises 8 and 10, identify the elementary row operation(s) being performed
+to obtain the new row-equivalent matrix.
+(8)
+Original Matrix New Row-Equivalent Matrix
+
+3 −1 −4 3 -1 -4
+−4 3 7  5 0 -5
+
+a. 3(b+a).
+
+
+(10)
+Original Matrix New Row-Equivalent Matrix
+
+
+−1 −2 3 −2
+2 −5 1 −7
+5 4 −7 6
+
+
+
+
+−1 −2 3 −2
+0 −9 7 −11
+0 −6 8 −4
+
+
+
+a. 2(b+a), b. ?
+(16) Find the solution set of the system of linear equations represented by the
+augmented matrix.
+
+
+3 −1 1 5
+1 2 1 0
+1 0 1 2
+
+
+(30) Solve the system using either Gaussian elimination with back-substitution
+or Gauss-Jordan elimination.
+x + 2y = 0
+x + y = 6
+3x − 2y = 8
+
+a. 4x=8;x+y=6, y=-2
+x=2,y=-1.
+
+(48) A food server examines the amount of money earned in tips after working
+an 8-hour shift. The server has a total of $95 in denominations of $1, $5, $10, and
+$20 bills. The total number of paper bills is 26. The number of $5 bills is 4 times
+the number of $10 bills, and the number of $1 bills is 1 less than twice the number
+of $5 bills. Write a system of linear equations to represent the situation. Then use
+matrices to find the number of each denomination.
+
+x+y+z=26; 15x+8y+2z=95
+
+(60) Determine whether each statement is true or false. If a statement is true,
+give a reason or cite an appropriate statement from the text. If a statement is
+false, provide an example that shows the statement is not true in all cases or cite
+an appropriate statement from the text.
+
+(a) A 4 × 7 matrix has four columns.
+has 4 rows
+(b) Every matrix has a unique reduced row-echelon form.
+true
+(c) A homogeneous system of four linear equations in four variables is always
+consistent.
+homogenous systems can be inconsistent and can make bad models.
+(d) Multiplying a row of a matrix by a constant is one of the elementary row
+operations.
+true
+
+(69) Consider the 2 × 2 matrix 
+a b
+c d
+. Perform the sequence of row operations.
+(a) Add −1 times the second row to the first row.
+a-c,b-d;c,d
+(b) Add 1 times the first row to the second row.
+a-c,b-d;a,b
+(c) Add −1 times the second row to the first row.
+-c,-d;a,b
+(d) Multiply the first row by −1.
+c,d;a,b
+What happened to the original matrix? Describe, in general, how to interchange
+two rows of a matrix using only the second and third elementary row operations.
+this looks like a transpose.
+This process describes how to rotate a matrix right in 4 steps.
+
+Assignment 2
+Chapter 1 Review Exercises (page 35)
+
+8. Find a parametric representation of the solution set of the linear equation.
+3x1 + 2x2 − 4x3 = 0
+
+03 00 00 a 01 00 00  a/3
+00 02 00 b 00 01 00  b/2
+00 00 -4 c 00 00 01 -c/4
+         0         a/3 + b/2 - c/4 =0
+
+32. Solve the system using either Gaussian elimination with back-substitution
+or Gauss-Jordan elimination.
+
+4x + 2y + 1z = 18  04 02 01 = 18  1 0 0  5
+4x − 2y − 2z = 28  04 -2 -2 = 28  0 1 0  2
+2x − 3y + 2z = −8  02 -3 02 = -8  0 0 1 -6
+
+8x-z=-10,z=10-08x
+y=36-2x-4z=36-2x-40-32x=-4-34x
+4x-4-34x+10-8x=22x-6=18,22x=24
+
+
+48. Solve the homogeneous system of linear equations.
+
+2x1 + 4x2 − 7x3 = 0     02 04 -7 |0     01 00  3/2 |0
+ x1 − 3x2 + 9x3 = 0     01 -3 09 |0     00 01 -5/2 |0
+ 
+ 
+ 
+54. Find (if possible) values of a; b; and c such that the system of linear equations
+has (1) no solution, (2) exactly one solution, and (3) infinitely many solutions.
+
+2x − y +  z = a 
+ x + y + 2z = b
+    3y + 3z = c
+	
+	1.{a,b,c}=0,  set=0.
+	2.3x+3z=a+b,3y+3z=c
+	3z=c-3y=a+b-3x
+	3y-3c-9y=c,-3y=2c
+	c=3y-3x+a+b
+	b=x+y+2z=c-3y+3x-a
+	a=c-b-3y+3x
+	3. is impossible, there is no x for c.
+	
+	2 -1 1 3 0 3 3 3 6 3 3 6 3 3 6 0  3 3 0 0 0 a=0     1 0 1 0
+	1  1 2 1 1 2 1 1 2 3 3 6 3 3 6 0  3 3 0 0 0 b=0     0 1 1 0
+	0  3 3 0 3 3 0 3 3 0 3 3 3 0 3 0 -3 0 0 3 0 c=-3y   0 0 0 0
+
+Fall 2018 Linear Algebra 2
+x2.1
+12. Find (1) c23 and (2) c32, where C = 5A + 2B,
+
+A = 04 11 -9 B = 01 00 05 5A = 20 55 -45 2B = 02 00 10 5A+2B= 22 55 -35 c23=32, c32=13
+    00 03 02     -4 06 11      00 15  10      -8 12 22        -8 27  32
+	-3 01 01     -6 04 09     -15 05  05     -12 08 18       -27 13  23
+	
+In 16, 18, and 22, find, if possible, (1) AB and (2) BA.
+
+16. A= 02 -2 B= 04 01 AB= 02*04+-2*02 02*01+-2*-2 = 4  6 BA= 7  -4
+       -1 04    02 -2     -1*04+04*02 -1*01+04*-2   4 -9     6 -12
+	   
+18. A= 01 -1 07 B= 01 01 02 AB= 06 -21 15 BA= 09 00  13
+       02 -1 08    02 01 01     08 -23 19     07 -2  21
+	   03 01 -1    01 -3 02     04  07 05     01 04 -19
+	   
+22. A= -1, B= 02 01 03 02, AB= -2 -1 -3 -2, BA=-4
+        2                       4  2  6  4
+	   -2                      -4 -2 -6 -4
+	    1                       2  1  3  2
+44. Write the system of linear equations in the form A~x = ~ b and solve this
+matrix equation for ~x.
+
+ x1 +  x2 − 3x3 = −1  01 01 -3 | -1 -1 -1 03 | 01    1    0 0 | 1 1 -3  01 01 -3 -1
+−x1 + 2x2 + 0x3 =  1  -1 02 00 | 01 -1 02 00 | 01   -1    1 0 | 0 3 -3  -1 02    01
+ x1 −  x2 +  x3 =  2  01 -1 01 | 02 02 -3 01 | 01    1 -2/3 1 | 0 0  2  01 -1 01 02
+ 
+50. Write the column matrix ~ b as a linear combination of the columns of A.
+A = 01 02 04 b= 1   01 00 -2 -3
+    -1 00 02    3   00 01 03 02
+    00 01 03    2   00 00 00 00
+	
+Assignment 3.
+
+4. Solve for X in the equation, given
+
+A = -2 -1 and B =  0  3
+     1  0          2  0
+	 3 -4         -4 -1
+	 
+(a) X = 3A − 2B: 3A= -6 -3  2B= 0 6 X= -6 -9
+                      3  0      4 0    -1  0
+	                  9-12     -8-2    17-10
+
+(b) 2X = 2A − B:  2A= -4 -2 2X= -4 -5
+                       2  0      0  0
+	                   6 -8     10 -7
+
+24. Find the matrix product ABC by (1) grouping the factors as (AB)C, and
+(2) grouping the factors as A(BC). Show that you obtain the same result from
+both processes.
+
+A = -4 02 B= 01 -5 00 C= -3 04 : AB= -8 26 06 BC= -3 -1 (AB)C= 18 00 A(BC)= 18 0
+    01 -3    -2 03 03    00 01       07-14 -9     03 -2       -12 05       -12 5
+	                     -1 01
+						 
+46. Find (1) AT A and (2) AAT . Show that each of these products is symmetric.
+
+A = 01 -1 ATA= 11 21  AAT= -2 01 -2  Neither product is symmetric
+    03 04      10 11       01 24 -6
+	00 -2                  -2 -6 00
+x2.3
+In problem 16 and 20, find the inverse of the matrix (if it exists).
+
+16. 10 05 -7 -10 -4 27
+    -5 01 04  02 01 -5
+	03 02 -2 -13 -5 35
+	
+20. -5/6 1/3 11/6 is not invertible, no z3.
+      0  2/3  2
+	  1 -1/2 -5/2
+	  
+42. Use the inverse matrices to find (1) (AB)−1, (2) (AT )−1, and (3) (2A)−1.
+A- = -2/7 1/7 B- = 5/11  2/11 A= -2 01 B= 1  2 AT= 1/7 2/7 AT-= 03 -2
+      3/7 2/7      3/11 -1/11    03 02    3 -5    -2/7 3/7      02 01
+	  
+AB= 01 -9 AB-= -2/7 1/7  2A-= -1/7 1/14
+    09 -4       3/7 2/7        3/14 1/7
+	
+48. Use an inverse matrix to solve each system of linear equations.
+
+(a) x1+ x2− 2x3 = 0 01 01 -2 |00 a-= 01  01  -1 rref= 1 0 0 1
+    x1− 2x2+ x3 = 0 01 -2 01 |00     2/3 1/3 -1       0 1 0 1
+    x1− x2− x3 = −1 01 -1 -1 |-1     1/3 2/3 -1       0 0 1 1
+	
+(b) x1+ x2−2x3 = −1 01 01 -2 |-1 b-= 01  01  -1 rref= 1 0 0 1
+    x1−2x2+ x3 = 02 01 -2 01 |01     2/3 1/3 -1       0 1 0 1
+    x1− x2− x3 = 00 01 -1 -1 |01     1/3 2/3 -1       0 0 1 1
+	
+54. Find x such that the matrix is equal to its own inverse.
+A = 02 0x : x=3
+    -1 -2
+	
+72. Determine whether each statement is true or false. If a statement is true,
+give a reason or cite an appropriate statement from the text. If a statement is
+false, provide an example that shows the statement is not true in all cases or cite an appropriate statement from the text.
+
+(1) The inverse of the inverse of a nonsingular matrix A, (A−1)−1, is equal to
+A itself by the double complement law.
+
+(2) The matrix abcd is invertible when ab − dc /= 0 since its inverse would
+also /=0.
+
+(3) If A is a square matrix, then the system of linear equations A~x = ~ b has a
+unique solution.
+
+Each matrix A of different values return a solution unlike any other matrix A
+given if the x or b matrix are different or not.
+
+79. Let A; D; and P be n × n matrices satisfying AP = PD. Assume that P is
+nonsingular and solve this equation for A. Must it be true that A = D?
+
+No, since BC is not CB, A and D must be different unless they are mutually invertible. A=D if AP=DP.
+
+Assignment 4
+
+x3.1
+16. Find all (1) minors and (2) cofactors of the matrix.
+−3 04 02 -17 -52 -54 -17 052 -54
+06 03 01 -18 016 005 018 016 -05
+04 −7 −8 -02 -15 -33 -02 015 -33
+
+26. Use expansion by cofactors to find the determinant of the matrix.
+0x 0y 01 1(-2(5)+2(1))=2-10=-8
+−2 −2 01 1(5x-y)     
+01 05 01 1(-2x+2y)
+
+5x-y-2x+2y-8=3x+y-8
+
+40. Find the determinant of the triangular matrix.
+04 00 00
+00 07 00 
+00 00 −2    -2(28-0)=-56
+
+50. Find the values of λ for which the determinant is zero.
+λ − 5 3  (y-5)^2 -3=0
+1 λ − 5   y=5+rad3
+
+x3.2
+28. Use elementary row or column operations to find the determinant.
+03 00 06 3(-3*2+2*4)=06
+02 −3 04 6(-2*2+3*1)=-6
+01 −2 02 6+-6=0
+
+x3.3
+28. Find A−. Begin by finding A−, and then evaluate its determinant. Verify
+your result by finding |A| and then applying the formula |A−| = 1/|A|.
+01 00 01 01  01 00 00 00             -1*3+2*2=1 -.5  1 -.5 -.5(-2+1.5)=.25
+02 -1 02 01  00 01 00 01             -1*1+2*2=3   2 -1   0  .5(.5-2)=-1.5
+01 -2 03 01  00 00 01 01              4         1.5 -1  .5  -1.25
+
+|A|
+44. Find At, AA, AAt, 2A, A−.
+A = -4 10 10 06 66 20 -80 026 -8 20 -3/37 5/37
+    05 06 -4 05 10 86 026 060 10 12  5/74 2/37
+|A|=-74, |At|=74, |AAt|=0, |AA|=5476, |2A|=-296,|A-|=-1/74   
+|A|-2         -.5 001 -.5 1 0 0 2
+|A-|=-1/2     002 0-1 000 0 1 0 3
+|A-|=1/|A|.   1.5 0-1 0.5 0 0 1 2.
+
+34. Use the determinant of the coefficient matrix to determine whether the
+system of linear equations has a unique solution.
+ x1 +  x2 −  x3 = 4  01 01 -1 04  01 00 00 00 Since |A|=0,
+2x1 −  x2 +  x3 = 6  02 -1 01 06  00 01 -1 00 it has no unique solution.
+3x1 − 2x2 + 2x3 = 0  03 -2 02 00  00 00 00 01	
+
+76. Determine whether the matrix is orthogonal. An invertible square matrix A
+is orthogonal when A− = AT .
+
+for 1/rad2, 01 -1 inverts to 0.5 -.5 -1 -1 inverts to -.5 0.5 so Neither are ortho.
+            -1 -1            -.5 -.5,01 -1            0.5 -.5
+
+80. Prove that if A is an orthogonal matrix, then |A| = ±1.
+A ortho if A-=At, 1(1-0)=1.
+
+Since both A and At maintain the same numbers inside ad-bc, then the ratio |A|/|At| must be -1.
+
+Assignment 5
+
+Chapter 3 Review Exercises
+47. Find the determinant of the n × n matrix that is 1-n every 1-n times, and is 1 everywhere else.
+
+1-n = -n+1, |-for each n, negate then add one: (|-(n),-,|+1)
+
+This is not possible, because there would be no values for the outermost ring of the box.
+
+In Exercises 8 and 10, find the sum of the vectors and illustrate the sum geo
+metrically.
+
+8.  u=(−1,4), v=(4,−3)  u+v=(4-1,4-3)=(8,-4) 
+10. u=(4,−2), v=(−2,−3) u+v=(4-2,-3-2)=(2,-5) 
+
+In Exercises 14 and 16, find the vector ~v and illustrate the specified vector
+operations geometrically, where u=(−2,
+63. Use the determinant of the coefficient matrix to determine whether the
+system of linear equations has a unique solution. If it does, use Cramer’s Rule to
+find the solution.
+
+ 2x1 + 3x2 +  3x3 =  3  02 03 03 03  03 03 03 3((-6-108)-(-13-24)+(117-12))=
+ 6x1 + 6x2 + 12x3 = 13  06 06 12 13  13 06 12 3(-114+37+105)=3(28)=84
+12x1 + 9x2 −  1x3 =  2  12 09 -1 02  02 09 -1
+
+                                     02 03 03 2(-13-24)-3(-6-144)+3(12-156)=
+									 06 13 12 -74+450-432=-56
+									 12 02 -1
+									 
+									 02 03 03 2(12-117)-3(12-156)+3(54-72) =
+									 06 06 13 -210+432-54=168
+									 12 09 02 168-56+84=196
+x4.13) and w=(−3,−2).
+
+14. v=w-u=(-3+2,-2-3)=(-1,-5)
+16. v=u−2w=(-2+6,3+4)=(4,7)
+
+In Exercises 48 and 50, write ~v as a linear combination of ~u1; ~u2; and ~u3, if
+possible.
+48. v=(−1,7,2), u1=(1,3,5), u2=(2,−1,3), u3=(−3,2,−4)
+
+01 03 05 -1  1 0 0 -3/7
+02 -1 03 07  0 1 0 -41/14
+-3 02 -4 02  0 0 1 23/14
+
+50. v=(7,2,5,−3), u1=(2,1,1,2), u2=(−3,3,4,−5), u3=(−6,3,1,2)
+
+02 01 01 02 07  1 0 0 13/15 31/15
+-3 03 04 -5 02  0 1 0 52/15 49/15
+-6 03 01 02 -3  0 0 1 -16/5  -2/5
+
+In Exercises 56, the zero vector ~ 0 can be written as a linear combination of the
+vectors ~v1;~v2; and ~v3 because ~ 0 = 0~v1 + 0~v2 + 0~v3. This is the trivial solution.
+Find a nontrivial way of writing ~ 0 as a linear combination of the three vectors, if
+possible.
+
+56. v1=(1,0,1), v2=(−1,1,2), v3=(0,1,3)
+
+01 00 01 00  1 0 1 0  b= -1
+-1 01 02 00  0 1 3 0     -3
+00 01 03 00  0 0 0 0     01
+
+Assignment 6
+
+Problem 1. Let V={(a1,a2)}:(a1,a2)eR}. For (a1,a2);(b1,b2)eV and c e R,
+define (a1,a2) + (b1,b2)=(a1+2b1,a2+3b2) and c(a1,a2)=(ca1,ca2):
+Is V a vector space? Justify your answer.
+
+No, v is not a vector space. (a1,a2)+(b1,b2) must map to (a1+b1,a2+b2),
+instead, M in V maps to (a1+2b1,a2+3b2). ca correctly maps to (ca1,ca2).
+M defies scalability, inversion, and association.
+
+Problem 2. Prove that the set of all 2 × 2 nonsingular matrices with the standard
+matrix operations is a vector space.
+
+a square matrix is singular iff ||=0. 
+It is still a matrix if the standard augment of a matrix is idempotent and the final
+augment of the identity is non zero.
+
+Problem 3. Show that C[−1,1], the set of all continuous functions defined on the
+interval [−1,1] with the standard function operations is a vector space. Note that
+for any two functions f(x), g(x) and any scalar c e R:
+(f + g)(x) = f(x) + g(x); and (c · f)(x) = c · f(x):
+
+A M e [-1,1]; M is a vector space for as long as (f+g)(x)=f(x)+g(x), and cfx=c*f(x).
+
+for example: f(x)=t, and g(x)=-t, where x is within C[-1,1]: t-t=t-t, ct=c*t.
+
+Problem 4. Prove that: W1={a(n)}eR^n:{a(n)=0} eR^n, but 
+                       W2={a(n)}eR^n:{a(n)=1}-eR^n.
+
+S{a(n)=1}=a(a-1)/2, |- E a:(-(eRveR^n), system is not a consistent system.
+an is a subspace because it is consistent since |a|=0 if Sa(n)=0.
+
+Problem 5. A matrix M is called skew-symmetric if M^t = −M. Clearly, a
+skew-symmetric matrix is square. Prove that the set W1 of all skew-symmetric
+n × n matrices is a subspace of M(n×n) (the set of all n × n matrices).
+
+prove: {W1}eM(n*n) if M^t=-M.
+
+tlnM=ln(-M), (dt/M=dt/-M), M=M(t)... ;dt/dt=-1, 
+
+1/M=dt/-M, Mdt=-M, dt=-1, t=-t. t=|t|, |- since E dt, {W1}does eM(n*n). wow.
+
+If t represents transpose...
+We want to test a simplest case where Mt=-M... lets start with the identity,
+
+if 1 1 0 | 1 1 0, then 1x+1y=0 and -0. thus if y=-x, then
+   1 1 0          we have an example of both t and -t, thus {W1}eM(n*n).
+Assignment 7
+
+Problem 1. Determine whether the following sets are subspaces of R3 under the
+standard operations. Justify your answers.
+(1) W1={(a1,a2,a3)eR^3:1a1+0a2-1a3=2}
+(2) W2={(a1,a2,a3)eR^3:1a1+2a2−3a3=1}
+
+Both are subspaces for R3 since each has 1 function that contains at least 3 perameters. 
+
+Problem 2. An m × n matrix A is called upper triangular if all entries lying
+below the diagonal entries are zero, that is, if aij = 0 whenever i > j. Prove that
+the upper triangular matrices form a subspace of M(m,n) (the set of all m×n matrices
+with the standard matrix operations).
+
+a1 b1 c1 d1 includes the space 00 00 c1 d1 + a1 b1 00 00 |- 00 d1 contains d1
+00 b2 c2 d2                    00 00 c2 d2   00 b2 00 00    00 00 for any sized matrix.
+00 00 c3 d3                    00 00 00 00   00 00 c3 d3
+00 00 00 d4                    00 00 00 00   00 00 00 d4 
+A grid with all values in the upper diagonal still contains at least 1 value 
+in at least 1 row and at least 1 col is what i meant.
+
+Problem 3. For each of the following lists of vectors in R3, determine whether the
+first vector can be expressed as a linear combination of the other two.
+(1) (−2; 0; 3); (1; 3; 0); (2; 4; −1)
+(2) (1; 2; −3); (−3; 2; 1); (2; −1; −1)
+
+01 02 -2 01 00 04 so yes for 1, -3 02 01 01 00 05 so yes for 2.
+03 04 00 00 01 -3               02 -1 02 00 01 08
+00 -1 03 00 00 00               01 -1 -3 00 00 00
+
+Problem 4. Show that the vectors (1; 1; 0); (1; 0; 1); and (0; 1; 1) generates (or
+spans) R3.
+
+00 01 01 produces 01 00 00 .5 where each parameter for 3x3 returns 1.
+01 00 01          00 01 00 .5
+01 01 00          00 00 01 .5
+
+Problem 5. Determine whether the given vector is in the span of S.
+(1) (2,−1,1),S={(1,0,2),(−1,1,1)}
+(2) −x3+2x2+3x+3,S={(x3+x2+x+1),(x2+x+1),(x+1)}
+
+1 is within the span of S since 1 has no more than 3 params.
+01 -1 02 01 00 01 shows that there is S inside 1.
+00 01 -1 00 01 -1
+02 01 01 
+2 is within the span of S since 2 has no more than 4 params.
+01 00 00 -1 01 00 00 -1 shows that there is S inside 2.
+01 01 00 02 00 01 00 03
+01 01 01 03 00 00 01 01
+01 01 01 03 
+
+Problem 6. Show that if
+M1= 1 0, M2= 0 0, M3= 1 0, S{M{1,2,3}}=A||(2,2).
+    0 0      0 1      0 1
+
+M1+M2=M3, this is definitive of the associative property/law, it works for A||,
+There are no multiples of each one that can provide for the other.
+S{M{1,2,3}}=A||(2x2) since M1 and M2 are linearly independent, and neither have more
+than 1 parameter in the same equation.
+
+Assignment 8
+
+Problem 1. Explain why S is not a basis for R2. S={−4,5;0,0}
+S is not a basis for R2 since there is no multiple of one that can give the other.
+
+Problem 2. Explain why S is not a basis for P2. S={1+xx;1−xx}
+There is no multiple of one that can give the other.
+
+Problem 3. Determine whether S is a basis for the given vector space.
+S={0,3,−2;4,0,3;−8,15,−16} for R3
+000 003 0-2 001 001 000  3/4      Is not a consistent system. 
+004 000 003 001 000 001 -2/3      There is no solution b for this system.
+0-8 015 -16 001              001
+
+Problem 4. Determine whether S is a basis for P3 (the set of polynomials of degree
+less than or equal to 3). S = {t(4−t),5+ttt,5+3t,tt(t-3)}
+00 -1 04 00 01 01 00 00 00 01     This is a consistent system. Det=30
+01 00 00 05 01 00 01 00 00 1/3    It has basis b for p3.
+00 00 03 05 01 00 00 01 00 1/3
+02 -3 00 00 01 00 00 00 01 00
+
+Problem 5. Determine whether S is a basis for M(2x2).
+S = 01 02  02 −7  04 −9  012 −16
+    -5 04, 06 02, 11 12, 017 042
+	
+	001 002 0-5 004 001 | 1 0 0   14/3 0  This is a badly inconsistent, rediculous matrix
+	002 0-7 006 002 001   0 1 0 122/69 0  Det=0.
+	004 0-9 011 012 001   0 0 1  58/69 0  There is no basis for this System.
+	012 -16 017 042 001         0      1
+	
+Problem 6. Let ~u;~v; and ~w be any three vectors from a vector space V . Determine
+whether the set of vectors {v−u,w−v,u−w} is linearly independent or linearly dependent.
+
+There is no scalar for any of these sums that will result in any other sum.
+Thus this system is linearly independent.
+
+for uvw, -1 01 00 01 01 00 -1 00 This is an inconsistent system.
+         00 -1 01 01 00 01 -1 00 Det=0.
+		 01 00 -1 01 00 00 00 01 It is linearly independent.
+		 
+Problem 7. Show that the sets S1 and S2 span the same subspace of R3.
+S1={0,0,1;0,1,1;2,1,1}
+S2={1,1,1;1,1,2;2,1,1}
+
+0 0 1 1 | 1 0 0 0   1 1 1 1 | 1 0 0 0 Det=-2
+0 1 1 1   0 1 0 0   1 1 2 1   0 1 0 1 Det=1
+2 1 1 1   0 0 1 1 , 2 1 1 1   0 0 1 0 Since they have not maintained a /0 basis in
+the same sectors, they do not span the same subspace. 
+
+Problem 8. Let A be a nonsingular matrix of order 3 (i.e. M3;3). Prove that if
+{v1,v2,v3} is a linearly independent set in M3;1, then the set {Av1,Av2,Av3} is
+also linearly independent. Explain, by means of an example, why this is not true
+when A is singular. 
+
+if sector Av has basis b, then basis b1,b2,b3 has basis b4.
+basis b4 may still be a nonbasis if it is the comparison of consistent basis.
+basis provided does not imply consistent comparison.
+
+t11 t12 t13 bt1 u11 u12 u13 bu1 v11 v12 v13 bv1 | bt1 bu1 bv1 bc1
+t21 t22 t23 bt2 u21 u22 u23 bu2 v21 v22 v23 bv2   bt2 bu2 bv2 bc2
+t31 t32 t33 bt3 u31 u32 u33 bu3 v31 v32 v33 bv3   bt3 bu3 bv3 bc3
+
+However, if A is the same A, then bc may still be inconsistent.
+
+Assignment 9
+
+8. Find (a) a basis for the row space and (b) the rank of the matrix.
+
+002 005 The basis for rows is 1 5/2, 
+0-2 0-5 The basis for cols is 1 -1 3
+0-6 -15 The rank of this set is 1
+
+14. Find a basis for the subspace of R3 spanned by S={2,3,−1 1,3,−9 0,1,5}
+
+02 03 -1 The solution matrix is 5/8 -1/4 -1/8
+01 03 -9 The nullspace is empty.
+00 01 05 
+
+32. Find the nullspace of the matrix
+
+1 4 2 The nullspace is -4; 1; 0.
+0 0 1                  
+
+34. Find the nullspace matrix
+
+003 0-6 021 000 2 -7
+0-2 004 -14 000 1  0
+001 0-2 007 000 0  1 
+
+46. Find (1) a basis for and (2) the dimension of the solution space of the
+homogeneous system of linear equations.
+
+02 02 04 -2 01 01 00 03 00 -2/9 b= -3, dim(Sol)=1x3.
+01 02 01 02 01 00 01 -1 00 -2/3    01
+-1 01 04 -2 01          01 -1/18   01   
+
+50. Determine whether the nonhomogeneous system A~x = ~ b is consistent. If it
+is, write the solution in the form ~x = ~xp + ~xh, where ~xp is a particular solution of A~x = ~ b and ~xh is a solution of A~x = ~ 0
+
+001 002 0-4 0-1 01 02 -4 00 7/5 -2 01 00 00
+0-3 0-6 012 003          01 2/5 04 00 01 00
+
+72. Let A be an m × n matrix. Prove that N(A) c N(A^T A):
+
+If N is a system of functions, N(A) :: MA, N(At*A)::M*(At*A)::AtM*MA.
+
+N(A)cN(AtA) iff M*(At*A)::AtM*MA, then MA c M*(At*A). 
+
+80. Prove that row operations do not change the dependency relationships among
+the columns of an m × n matrix.
+
+If A -> B, then B=MA, since AcB, E(A)cB, |- row operations do not alter dependency.
+
+Assignment 10
+
+6. Given the coordinate matrix of ~x relative to a (nonstandard) basis B for Rn,
+find the coordinate matrix of ~x relative to the standard basis.
+B = −2,3 3,−2;[x]B = -1;4
+
+-2 03 2/5 3/5 -1 2
+03 -2 3/5 2/5 04 1
+
+14. Find the coordinate matrix of ~x in Rn relative to the basis B1.
+B1={3/2,4,1 3/4,5/2,0 1,1/2,2} x=3,-1/2,8
+
+3/2 3/4   1    3    --> 2;-4;3
+  4 5/2 1/2 -1/2
+  1   0   2    8
+
+22. Find the transition matrix from B to B0.
+B = {(1; 0; 0); (0; 1; 0); (0; 0; 1)}
+B0 = {(1; 3; −1); (2; 7; −4); (2; 9; −7)}
+
+01 02 02 01 01 00 00 -3
+03 07 09 01 00 01 00 04
+-1 -4 -7 01 00 00 01 -2
+
+38. (1) Find the transition matrix from B to B0, 
+(2) find the transition matrix from B0 to B, 
+(3) verify that the two transition matrices are inverses of each other, and 
+(4) find the coordinate matrix [~x]B, given the coordinate matrix [~x]B0.
+B=2,−2 6,3;B0=1,1 32,31.
+[~x]B0 = 2;-1
+
+B=A*B0, B/B0=A
+B     B0    1/B       1/B0  B      1/B0   B/B0
+02 06 01 32 1/6 -1/3 -31 32 02 06 -31 32 -56 058
+-2 03 01 31 1/9  1/9   1 -1 -2 03   1 -1 065 -67
+
+B0=A*B, B0/B=A
+01 32 1/6 -1/3 67/18 29/9
+01 31 1/9  1/9 65/18 28/9
+
+-56 058 67/18 29/9
+065 -67 65/18 29/9
+
+1/B0    xB0   x    B       x   x*B
+-31 032 02   -94    02 06 -94 -170
+001 0-1 -1   003    -2 03 003  197
+
+the two are not inverses of each other.
+
+01 32 02 01 00 -94 02 06 -94 01 00 -50/3
+01 31 -1 00 01 003,-2 03  03 00 01 -91/9 
+
+[x]=-94;3, B*[x]=-50/3;-91/9.
+
+54. Let B and B0 be two bases for Rn. Ok,... B1 B0 Rn, M In Rn, B1 B0 In M
+
+(1) When B = In, write the transition matrix from B to B0 in terms of B0: B1 M B0:I M B0
+(2) When B0 = In, write the transition matrix from B to B0 in terms of B: B0 M B1:I M B1
+(3) When B = In, write the transition matrix from B0 to B in terms of B0: B0 M B1:B0 M I
+(4) When B0 = In, write the transition matrix from B0 to B in terms of B: B0 M B1:B0 M B
+
+Assignment 11
+x6.1
+For 16 and 22, determine whether the function is a linear transformation.
+16. T:M(2x2)->R,T(A)=a+b+c+d, where
+A =a b 
+   c d, yes this is a linear transformation where x+y=f and x=ax1+bx2 and y=cy1+dy2.
+   
+22. T:P2->P2,T(a0+a1x1+a2x2)= a1+2a2x, no this is not a linear transformation, it is a transformation function of the form n*(x^(n-1)), which is not linear.
+
+79. Let S={~vn} be a set of linearly dependent vectors in V , and let T
+be a linear transformation from V into V. Prove that the set {T(~vn)} is linearly dependent.
+
+Since T is the same T for all values v along S, thus {T(~vn)}/S=c;T(~vn)::(~vn)mod0.
+
+x6.2
+14. Define the linear transformation T by T(~x) = A*(~x). Find (1) the kernel of T
+and (2) the range of T .
+A = 01 00 02 Ar=01 00 02 A=Range of A,
+    01 −2 01    00 01 .5 Kernel of A= -2;-.5;1.
+	
+56. Which vector spaces are isomorphic to R6?
+(1) M2;3
+(2) P6
+(3) C[0; 6]      3,4,5 are similar to R6.
+(4) M6;1
+(5) P5
+(6) f(x1; x2; x3; 0; x5; x6; x7) : xi is a real numberg
+
+68. Let T : V -> W be a linear transformation. Prove that T is one-to-one if
+and only if the rank of T equals the dimension of V .
+
+the transformation is 1-1 if rank T = dim V since rank V = rank T allows the 
+dim T to pair with dim V, thus rank T= dim V. 
+
+the rank is the number of free variables in an unaugmented set.
+x6.3
+2. Find the standard matrix for the linear transformation T .
+T (x; y) = (2x − 3y; x − y; y − 4x)
+
+01 00  02 01 -4  01 00  003
+00 01  -3 -1 01  00 01  -10
+
+38. Find T (~v) by using (1) the standard matrix and (2) the matrix relative to
+B and B0.
+T:R3->R2;T(x;y;z)=(x−y;y−z);~v=(2;4;6);
+B={1;1;1 1;1;0 0;1;1}, B0={1;1 2;1}
+
+(2;4;6)=v(B): B*v=  2 1 0 1  1 0 0     (x-y;y-z)= 00 -1 00 02 00 00  -1 2 17/12
+                    4 1 1 1  0 1 0 1              00 01 -1 00 04 00  -2 4  5/12
+					6 1 0 1  0 0 1                00 00 00 00 00 06     6 -7/12
+					
+					r(B/B0)=2 1 1 1 0  1, T(v)=0;0;1
+					        1 0 1 0 1 -1
+					
+Fall 2018 Linear Algebra 2
+44. Let T : P2 -> P4 be the linear transformation T (p) = x2p. Find the matrix
+for T relative to the bases B = 1; x; x2 and B0 = 1; x; x2; x3; x4.
+
+1 1 1  1 0 0
+1 1 1  0 1 1
+1 1 1
+0 1 1
+0 1 1
+
+52. Let T be a linear transformation such that T (~v) = k~v for ~v in Rn. Find the
+standard matrix for T:
+
+The standard matrix for T is A.
+
+Assignment 12
+x7.1
+
+In Exercise 18 and 24, find (1) the characteristic equation and (2) the eigenvalues
+(and corresponding eigenvectors) of the matrix.
+
+18. -2 04  -2-y 04   -(2+y)(1-y)-4=0     yy+y-6=0
+    01 01  01  1-y   -(2-2y+y-yy)=yy+y-2,(y+3)(y-2)::y=-3,2
+	
+	-2+3 04  01 04 00 1 4 0 -4
+	01  1+3  01 04 00 0 0 0 01
+	
+	-2-2 4   -4 04 00 01 -1 01
+	1  1-2   01 -1 00 00 00 01
+	
+24. 03 02 -3  3-y 2  -3  =  03-y[(-4-y)(5-y)+18] (3-y)[-(20-4y+5y-yy)+18]
+    -3 -4 09  -3 -4-y 9     02[-3(5-y)+9]  -15+3y+9=-5+y+3=y-2, y=2
+	-1 -2 05  -1 -2 5-y     -3[6-(4+y)]    y=-2
+	
+	3-y(-2-y+yy)=(3-y)(y-2)(y+1), y=3,2,-1
+	
+	00 02 -3 00 Null   01 02 -3 00 01 02 -3 | -2 -3  05 02 -3 00 Null
+	-3 -7 09 00 Space  -3 -6 09 00            01 00  -3 -2 09 00 Space
+	-1 -2 02 00 Empty  -1 -2 03 00            00 01  -1 -2 07 00 Empty
+	
+	04 02 -3 00 Null
+	-3 -3 09 00 Space 
+	-1 -2 06 00 Empty
+	
+56. Prove that λ = 0 is an eigenvalue of A iff A is singular.
+
+for a b, if ad-bc=0, (a-y)(d-y)=bc-n, thus for ad=bc, y must be 0.
+    c d
+
+58. Prove that A and AT have the same eigenvalues. Are the eigenspaces the
+same?
+
+A and At have the same eigenvalues because they have the same values, thus
+eigenspaces should also be the same.
+
+62. Prove that if A^2 = O, then 0 is the only eigenvalue of A.
+Getting Started: You need to show that if there exists a nonzero vector ~x and a
+real number λ such that A~x = λ~x, then if A2 = O, λ must be zero.
+
+(1) A^2 = AA, so you can write (A^2)*x as A(Ax): yes
+(2) Use the fact that A~x = λ~x and the properties of matrix multiplication to
+show that A^2~x = λ*~x. A^2 has the same space as A, thus y should be of the same number of y in a set of y(A^2).
+(3) A2 is a zero matrix, so you can conclude that λ must be zero. yes
+
+x7.2
+In Exercises 8 and 10, find (if possible) a nonsingular matrix P such that PDP-
+is diagonal. Verify that PAP- is a diagonal matrix with the eigenvalues on the
+main diagonal.
+
+8. 1/4 1/4 =1/4 1 1  A*P/P=A. -y(1-y)-2=0=-y+yy, yy-y-2=(y-2)(y+1),y=2,-1
+   1/2  0       2 0           
+   
+   -1 01 00 01 -1 01 || 2 1 0 1 .5 -.5 || 02 00 01 -.5  2/3 1/3
+   02 -2 00       01    2 1 0        1    00 -1 01 001 -2/3 2/3
+   
+   (1/6) 6 0 2  0 == 2    Values on diagonal
+         0 6 0 -1      -1 No Diag...
+    
+10. 3 2 1  3-y 2 1  3-y[yy-4]: 00 02 01 00  01 02 01 00  05 02 01 00  01 -3 1/5
+    0 0 2  0 0-y 2  y=3,2,-2   00 -3 02 00  00 -2 02 00  00 02 02 00  00 01 -1
+	0 2 0  0 2 0-y             00 02 -3 00  00 02 -2 00  00 02 02 00  00 01 01
+	
+	1 8/5 7/5 3 24/5 21/5 3      3 2 1
+	0 1/2 1/2 0    1    1   2    0 0 2
+	0 -.5 1/2 0    1   -1     -2 0 2 0  Diag=EValues, Values on Diagonal.           
+	
+42. Prove that if matrix A is diagonalizable, then AT is diagonalizable.
+
+At for A is diagonizable for the same reason that |A|=|At|.
+
+Professor, doesnt this just mean that AP/P=A and PD/P=D anyway?

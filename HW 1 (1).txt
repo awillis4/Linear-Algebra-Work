@@ -1,0 +1,742 @@
+﻿----------------------- Page 1-----------------------
+
+                                    Assignment  1 
+
+    1.  Evaluate 
+
+                                       Z   x(x2  + 1)5 dx 
+
+
+
+         Sudv=uv-Svdu: = ((x^2)/3)((x^2)+1)^6 - 2x/21((x^2)+1)^7 +C 
+
+
+
+                  0                     x 
+
+    2.  Assume f  (x) = − sin(x) + e       and that f (0) = 5, ﬁnd f (x) 
+
+
+
+    f(x)=cosx+(e^x)+5 
+
+    3.  Evaluate 
+
+                                        Z  3   e2x2x  dx 
+
+
+
+                                          1  1 + e 
+
+Hint:  Integration by substitution with u(x) = 1 + e2x 
+
+
+
+du=2xe^2xdx, (1/2)Sdu/u=(1/2)ln|u|, = (1/2)(ln(1+e^6)-(1+e^2)= (1/2)ln(e^6-e^2) 
+
+
+
+    4.  Find the derivative of the function: 
+
+                                                 x      p         
+
+    f (x) = ln(6x)    cos       +  3 2x + 1 
+
+ ln(6x)(-(1/2)sin(x/2) + (2/3)(2x+1)^-(2/3) + ((1/6x)*(cos(x/2) + (2x-1)^(1/3)) 
+
+5.  Evaluate Z  3 x3  − cos(3x) + 3x−1 dx 
+
+(3/28)(x^4)-(1/3)sin(3x)+3lnx+c 
+
+6.  Find f  (x), where 
+f (x) = e3x  − ln(10x) 
+ f(x)=3xe^(3x)-1/10x       +C 
+
+    7.  Evaluate Z  2x cos(4x) dx 
+Hint:  Integration by parts 
+
+  Sudv=uv-Svdu: 2x=u, 2=du, cos4xdx=dv, v=(1/4)sin2x,  
+
+  uv-Svdu=(x/2)sin2x+1/4(sin2x) 
+
+
+
+    8.  We  consider  the  phenomenon  of  radioactive  decay  which,  from  experimen- 
+
+tation,  we  know  behaves  according  to  the  law:      The  rate  at  which  a  quantity  of 
+
+a radioactive isotope decays is proportional to the amount of the isotope present. 
+
+The  proportionality  constant  depends  only  on  which  radioactive  isotope  is  used. 
+
+Model radioactive decay using the notation: 
+
+
+
+              t = time; 
+
+
+
+           r (t) = amount of particular radioactive isotope present at time t 
+
+
+
+            −λ = decay rate 
+
+
+
+       r(t)=r(0)e^(-yt) 
+
+
+
+                                                1 
+
+
+
+                                                                     Armani Willis 
+
+                                                                     9.14.4.17 
+
+   Discussion:                                                                         
+	In the first class, we reviewed some basic Calculus techniques and started the basic mathematical modeling. Please answer the following questions.
+
+1. What are the derivatives of the following functions?
+f left parenthesis x right parenthesis equals e to the power of minus x end exponent ; space g left parenthesis x right parenthesis equals cos left parenthesis 3 x right parenthesis
+2. Give an anti-derivative for each of the following function
+f left parenthesis x right parenthesis equals e to the power of minus x end exponent ; space g left parenthesis x right parenthesis equals cos left parenthesis 3 x right parenthesis
+3. Briefly outline the steps for the Integration by Substitution (or "u-substitution"), using the following example
+integral x e to the power of x squared end exponent d x
+
+		1. df/dx = -e^-x, dg/dx=-3sin3x.
+
+2. Sfdx = -e^-x, Sgdx=(sin3x)/3.
+
+3. xdx=dv, e^(x^2)=u, (x^2)/2=v, 2xe^x^2=du, 
+
+Sudv=uv-Svdu: = e^(x^2)[(x^2)/2)-(1/6)(x^3)]																																		
+	Assignment 2
+Posted on: Thursday, September 14, 2017 10:01:11 PM EDT
+Notice: All the problems below are from the textbook (Differential Equations, 4th Edition, by Blanchard, Devaney, and Hall).
+Due Date: 9/21 (Thursday)
+1.1----3; 11; 13; 15; 17;
+1.2----5; 6; 11; 12.
+
+1.1: 3. Consider the population model: dP/dt=.4P(1-(P/230)).
+ For what values of P is the population in equilibrium?
+.4P(1-(p/230))=(.4P)(1-(P/230))=0, P=(P^2)/230, 1=P/230, P=230|-: 
+P=230 when F=0, F is increasing when P>230 and decreasing when P<230.
+
+11. The amount of rabbits on MacQuarie Island rose from 4 to 130 thousand from 2000 to 2006, 
+Using dR/dt=kR, notice the rate k and the volume R of rabbits in 2010.
+
+130-4/6=kR=21; S(1/R)dR=kSdt, k=lnR, R=e^k; R(t)=R(0)e^kt, 130=4e^6k, k=ln130/6ln4=1.1246;
+R(10)=4e^11.246=306,292.057 Rabbits at the start od 2010. Please notice the +.057 Rabbits.
+
+13. Notice the function DL=k(1-L). for what value between 0 and 1 does learning occur most rapidly?
+S1/(1-L)dL=kSdt since DL is highest when L=0, learning occurs fastest when nothing has been seen yet.
+
+15. consider that DA=2(1-L) & DB=3(1-L)^2.
+a. Beth was learning the poem at the fastest rate at the start of the activity.
+b. DA=1 while DB=3(1-.5)(1-.5)=3(1-1+.25)=.75; Aly was learning at 4/3 Beth's rate halfway into the
+activity.
+c. DA=4/3, DB=3(1-(1/3))(1-(1/3))=3(1-6/9+1/9)=12/9=4/3; @t=1/3, they were learning at the same rate.
+
+17. Consider that the carrying capacity N in the equation DP=kP(1-(P/N)) is used to model the
+amount of fish in a lake. edit the equation to suit the following conditions: 
+a. One hundred fish are harvested each year: k(P-100)(1-((P-100)/N))
+b. 1/3 of the fish are harvested yearly: k(P-1/3)(1-((P-1/3)/N))
+c. # fish harvested/year=P^(1/2): k(P-P^(1/2))(1-((P-P^(1/2))/N))
+
+1.2: Find the general solution of the differential equation specified.
+To find a general solution, notice that dy/dt=y^k, Sy^kdy=Sdt.
+5. dy/dt=(ty)^2. S(y^-2)dy=St^2dt, -1/y=(t^3)/3 +c, y=-((3/(t^3))+c)
+6. dy/dt=y*t^4, Sdy/y=St^4dt, ln|y|=(t^5)/5 +c, y=e^(((t^5)/5)+c)
+11. dy/dt=(y^2)(2t+3), S(y^-2)dy=S(2t-3)dt, -1/y=(t)(t-3)+c, y=-(1/(t)(t-3)+c)
+12. dy/dt=t/y, Sydy=Stdt, y=t+c.
+
+Discussion:
+
+1. In Chapter 1.1, we introduced "equilibrium solutions" to a differential equation. In particular, an equilibrium solution to a differential equation is a constant function which satisfies the differential equation. Please explain how to find equilibrium solutions. For example, find the equilibrium solutions of the following equation:
+fraction numerator d f over denominator d x end fraction equals left parenthesis x squared minus 1 right parenthesis left parenthesis f plus 1 right parenthesis left parenthesis f minus 1 right parenthesis f
+2. Please read the definition of a separable equation in Chapter 1.2, and answer the following:
+Is the given equation separable?
+fraction numerator d V over denominator d y end fraction equals V squared minus y plus 1
+
+1. first we isolate the terms of f from its derivative: (f+1)(f-1)f=((x^2)-1)(df/dx),
+
+then we know that ((f^3-f)/df)dx=(x^2)-1, thus ((1/3)x^3)-x = 
+
+dx/df=dv, v=lnf, (f^3-f)=u, 3f^2-1=du,
+
+uv-Svdu=((f^3)-f)lnf-(1/f)((f^3)-f)= ((f^3)-f)(lnf-(1/f))
+
+I can continue from here, but others may correct me...
+ 
+13 days ago Armani Willis 
+RE: Week 2 Discussion
+COLLAPSE
+I can then say x((x^2)/3 -1)=((f^2)-1)(flnf-1). since g^2 is present in both formulas, i can say g(x) is + or - 1 for x(f) and f(x).
+
+2. the following equation is not separable, since the term dV/dy is not explicitly integrable. however, y=V^2 - dV/dy +1.
+(I cannot find V or y as functions of each other as single terms.)
+
+
+Assignment 3
+Posted on: Thursday, September 21, 2017 6:08:55 PM EDT
+Due date: 9/28
+Problems: 
+1.2: 13; 21; 28; 30; 34; 41
+1.3: 7; 8; 9; 10.
+
+13. dy/dt=1/y(t+1), Sydy=S(1/t+1)dt, (y^2)/2=ln|t+1|+c, y=(2(ln|t+1|+c))^(1/2)
+21. dy/dt=(ye^t)/(1+y^2)=(e^t)/(y^2)(y+1), S(y^2)+(y^3)dy=Se^tdt, (y^3)/3+(y^4)/4 =(e^t)+c, 
+t=7lny-ln3-ln4-lnc, e^t=y^7-7-c, y=((e^t)-7-c)^(1/7)
+28. dy/dt=tytyy, S(y^-3)dy=S(t^2)dt, 1/(2y^2)=(t^3)/3 +c, y=(3/2(t^3)+c)^(1/2)
+30. dy/dt=1/y(1-t), Sydy=S(1/1-t)dt,(y^2)/2=ln|1-t|+c, y=(2ln|1-t|+c)^(1/2)
+34. dy/dt=(1/y)-y, S(y-1/y)dy=Sdt, (y^2)/2 -ln|y|=c (explicit).          
+41. T(t)=T(0)e^kt, 110=170e^kt 				
+
+7. dy/dt=3y(1-y), S1/(3y-3y^2)dy=1=(3-6y)ln(3y)(1-y)+c, lim(y>=(1/2)):(f<=0).
+8. 2y-(dy/dt)=t, 2ydt-dy=tdt, 2Sydt-Sdy=Stdt, 2yt-((t^2)/2)+c=1, y=(1+((t^2)/2)+c)/2t, 4y=t+(2(1+c)/t); t increases.
+9. dy/dt=(y+.5)(y+t)=yy+yt+.5(y+t), lny+y(2-t)=(t^2)/2. (increases)
+10. lny=t((t/2)+1). (increases) 
+
+Discussion:
+
+			Consider a large vat containing sugar water that is to be made into soft drinks. Suppose:
+• That vat contains 100 gallons of liquid.
+• The vat is kept well mixed, so the sugar concentration is uniform throughout the vat.
+• Sugar water containing 5 tablespoons of sugar per gallon enters the vat through pip A at a rate of 2 gallons per minute.
+• Sugar water containing 10 tablespoons of sugar per gallon enters the vat through pipe B at a rate of 1 gallon per minute.
+• Sugar water leaves the vat through pipe C at a rate of 5 gallons per minute.
+Find a differential equation between the time t measured in minutes and the total amount of sugar S(t) in the vat at time t measured in tablespoons.
+
+			For the flow rates of both A and B:
+dS/dt = 2*5+1*10-5*S/100 = 20-S/20.
+S=S(20-S/20)dt = 20t-St/20 = t-S/20 
+
+If SdS/(20-S/20)=Sdt, ln|20-S/20|=t+c,
+e^(t+c)=20-S/20, -S=ce^(-t/20)+400,
+At t=1, S=-(ce^(-.05)-400).			
+
+Assignment 4
+Posted on: Thursday, September 28, 2017 9:36:05 PM EDT
+Due date: Thursday (10/5)
+
+Chapter 1.4: y(k+1)=y(k)+f(k(t+y))dt
+5; 8 use eulers method to approximate and draw the curve at the given bounds.
+5. dw/dt = (3-w)(w+1)=(3w+3-ww-w)=2w-ww+3, 0=w^2-(w^3)/3+2w, w^2=3(w+2), w^2-3w-2, 3/2.
+w(0)=4, t:(1-5), dt=1.
+8. dy/dt=e^(2/y), y=(-1/yy)e^(2/y)
+y(1)=2, t:(1-3), dt=.5
+
+Chapter 1.5:
+5; 9(a)(b); 12.
+5. for dy/dt = y(y-1)(y-3), what do the existence and uniqueness theorems say about y(0)=4?
+4(4-1)(4-3)=4(3)(1)=12. This function is continuous, its sum and slope are continuous, 
+y(0)=4 has a solution for all three slopes.
+9. a. show that y1=t^2 and y2=(tt+1) are solutions for Dy=2t(yt+1)-tt(1-tt)+y(1-y). 
+t^2 and t^2 +1 are all forms that exist in Dy and D^2 y. 
+b. show that y(0):(0-1)^y(t):(tt-tt+1):A(t).: for y=0, Dy=-tt(tt+1),
+S2tyt+2tdy=ty(2+ty)=-St^2+t^4dt=-(t^3)/3 -(t^5)/5, y=(3/5)-(1/(t^2)).
+Thus y(0) is between 0 and 1, and y(t)>>(3/5) as t>>0voo, so this is true.
+12a. show that 1/(t-1) and 1/(t-2) are solutions for dy/dy=-yy.
+-S(1/y^2)dy=Sdt, y=1/t+c, therefore, 1/t-t and 1/t-2 are both integral solutions of t.
+b. t+c=1/y, as t>>0, y>>1/c. as y>>oo, t>>-c, thus, this does not work for c>2. 
+
+COLLAPSE
+In Chapter 1.5, we introduced the Existence/Uniqueness Theorems. Suppose we are given an initial-value problem dy/dt = (y^2)(e^yt), y(1)=2.
+Explain: (i) Is there a solution to this problem? (ii) Is there a unique solution?
+  1. Dy is continuous, [y(1)=2]=4e^2 for Dy,
+
+2. S(1/(y^2)e^yt)dy=t, e^yt(2y+yy)*ln|(y^2)(e^yt)|= (2yt)(1+y)(e^yt)(lny)+c
+
+3. (D^2)y=(e^yt)(2y+yy), for y(1)=2, t=1,y=2, =8(e^2)
+
+4. a pattern is noticeable where f=D^n y is continuous and doubles with every n.
+
+Assignment 5
+Posted on: Thursday, October 5, 2017 10:08:54 PM EDT
+Due date: Thursday (10/12)
+ Problems: Chapter 1.6:
+ 2; 9; 14; 21; 30; 33; 37 (a); 40.
+ 
+ Identify the phase lines and points of these equations
+ 2. Dy=(y^2)-4y-12 =(y+2)(y-6), r:=6,-2,
+ (D^2)y = (1+2)(y-6)+(y+2)(1-6)=3(y-6)-5(y+2)=3y-18-5y-10=-2(y+14)
+ @6: -2(6+14)=-40, @-2: -2(14-2)=-24. 
+ Dy is increaasing at -2 and decreasing at 6; (+-+):(source, sink)
+ 9. Dy=1+cosy=0, cosy=-1, y=arccos(-1). D(arccosy)=-(1-(y^2))^(-1/2).
+ thus -1 is a node since the graph is decreasing from both sides.
+ 30. increasing, decreasing, (+--), source, node.
+ 33. slopes not given!
+ 37a. i notice that this line corresponds to equation #1, since 
+ it passes through x=0 @ y=1, and crosses again at double the distance.
+ 40. Dy=(1-cosy)+(1+cosy)I(t)=I+Icosy-cosy+1=(I+1)+cosy(I-1)
+ I=-(1/3), Dy=(2/3)-(4/3)cosy=0, 1/2=cosy, y=arccos(1/2).
+ 1/2 is an equillinrium point and it is a node.
+ 
+Discussion
+
+Find the equillibrium solutions for Dy=(y^3)((y-2)^2)((1/5)-y). Then determine the class of each point.
+
+1. to set y=0 for independently, y^3=0, (y-2)=2, ((1/5)-y)=1/5, 
+therefore 0, 2, and (1/5) are roots.
+
+2. expanding, (D^2)y = 3(y^2)((y-2)^2)((1/5)-y) + 2(y^3)(y-2)((1/5)-y) + (y^3)((y-2)^2) 
+
+3a. using the roots as input, y=0: 0+0+0=0.
+b. y=2: (12)0(1/5) + 16(0)(1/5) + 8(0) = 0.
+c. y=(1/5): (1/125)(-9/5)^2=(1/125)(81/25)=(81)/(3125)~1/39.
+
+4. since (1/5) is positive, and between 0 and 2, y roughly increases between 0 and 1/5,
+y roughly decreases from 1/5 to 2, (++--), node, source, node.  
+
+In being very unstable, this form of platinum produces alot of heat, and energy proportional
+
+        to 2^18 enthalpy rate of valent free energy change can rival the output of certain nuclear
+
+        reactions, such as the fusion of hydrogen to helium. In addition to the extreme energy 
+
+        output of platinum when it is in this form, unstable isotopes of platinum in the icospheric
+
+        electronic form can form a suplementation between the electrons and its nucleus, greatly
+
+        increasing the potential output of an already fissile isotope. 	
+		
+		Week 6
+		
+		Chapter 1.9 Problems
+Posted on: Thursday, October 19, 2017 4:24:32 PM EDT
+The following questions are from Chapter 1.9:
+4; 6; 10; 24
+
+4. dy/dt=-2ty+4e^(t^2), Sdy=y=Svdt, =-yt^2+(1/t)(2e^-(t^2)). y+tty=(2/t)(e^-(t^2)). y=2e^(-t^2)/
+t(1+t^2).
+
+6.dy/dt=(t^3)(e^t)+(2y/t)=(t^4)(e^t)+2y. y-2yt=S(t^4)(e^t)dt.  (e^t)=v, du=3t^2,
+y(1-2t)=(t^4)(e^t)-(e^t)=(e^t)(t^4)+1)), y=(e^t)((t^4)+1)/(1-2t).
+
+10. dy/dt=-2ty+4e^(-t^2). y(1+(t^2)=-(2/t)e^(-t^2), y= -(2e^tt)/t(1+(t^2)).
+@y(0)=3, y=-(2/0)+c=3, 2/0=3-c, 2=0(3-c), 0=2/(3-c), c=-(0/2)-3=-3.
+
+24. -
+You don't need to turn them in, but make sure you practice them for the midterm exam.
+
+Posted by: Cheng Chang
+Posted to: 201730 Fall MATH-362-DFB (CRN-11333.201730)
+Assignment 6
+Posted on: Thursday, October 12, 2017 8:30:18 PM EDT
+Due date: Thursday (10/19) 
+
+
+Problems: Chapter 1.8
+1; 3; 11; 19; 20.
+
+1. y=9t/e^t; 3. -(8sin2t +c)/(1-3t); 11. 7(e^2t)/2 at t=0 = 7/2. 19. they are congruent. 20. true.
+
+Discussion: Use the method introduced in the section 1.8 to find a particular solution for this next
+differential: dy/dt=3y+(e^3t)(t+1)
+
+Professor, I attempted this problem with 2 different methods and I got very different results.
+
+the uv method,
+
+dy=y'dt=[3y+(t+1)e^3t]dt
+
+Sdy=S3y+(t+1)e^3t]dt
+
+=3ty+S(t+1)e^3t]dt
+
+t+1=u, du=1, e^3tdt=dv, v=(e^3t)/3
+
+Sudv=uv-Svdu=(t+1)(e^3t)/3-(e^3t)/9
+
+|--:  y=[(e^3t)/3][(t+(2/3))]/(1-3t).
+
+the pg method:
+
+du/dt-p=g;u=e^Spdt;y=(1/u)(Sugdt).
+
+du/dt-3y=(e^3t)(t+1)
+
+e^S3ydt=e^3yt :: y=(e^-3yt)S(e^3yt)(e^3t)(t+1)dt = (e^-3yt)S(e^9tty)(t+1)dt
+
+u=(e^9tty), du=(e^18ty), dv=(t+1)dt, v=(tt/2)+t
+
+uv-Svdu=t(t/2 +1)(e^9tty)-(t^2)(t/6+1/2)
+
+y=t(t/2 +1)(e^3t)-(t^2)(t/6+1/2).
+
+Week 7
+
+Chapter 1.9 Partial factors
+4; 6; 10; 24.
+
+4. dy/dt = -2ty + 4e^(-t^2)
+
+dy/dt + 2ty = 4e^(-t^2)
+
+p=2t, u=e^(t^2), y=e^(-t^2)S(e^(t^2))(4e^(-t^2))dt
+
+=4t/e^(t^2).
+
+6. dy/dt  = (t^3)(e^t) +2y/t
+
+=(t^2)(e^t)+2y
+
+p=-2, u=e^-2t, y=(e^2t)S(e^-2t)(e^t)dt
+
+y=(e^2t)S(e^-t)dt=-(e^t). (General Solution)
+
+10. dy/dt + ty = 2(e^-t^2)
+
+p=t, u= e^(|t^2|/2), y=e^-((t^2)/2)S2(e^((t^2)/2)(e^-t^2))dt
+
+e^(-(t^2))/t.
+
+24. dy/dt + y/t+15 = 2
+
+p=1/(t+15), u= |t+15|, y=1/(t+15)S2(t+15)dt
+
+=(1+(t/15))(t+30)+c)=t+30+tt/15+2t+c+ct/15=t(3+c+(t/15))+(30+c)
+
+0=t((t+30)/t+15) +(c/(t+15)), -t(t+30)/t+15=c/t+15, c=-t(t+30),
+
+y=tt+30t-tt-30t/t+15=0+c/t+15. 30=c/t+15, c=30t+15, =15 pounds of salt.
+
+Discussion:
+
+T'=T(S+T-1)::S'=S(TT-1)
+
+(1/S)dS=(TT-1)dt::ln|S|=T(T^2 -1)::S=e^T(T^2 +1)
+
+T'=T(e^T(T^2-1) + (T-1))
+
+ln|T|=(1/(3(T^2)-1)e^T(T^2 -1) + T(T/2 +1)=v, T=e^v.
+
+(ln|S|)'=3T^2-1=1/S, S=(3T)^-2 -1
+
+1/(ln|T|)'=[1/(T(e^T(T^2 -1) +(T-1)]
+
+dT/dt=dS/dt::(3T^2 -1)=T(e^T(T^2 -1) +T-1
+
+ln|3T-1/T-T+1|(1/T)=(T^2)-1.
+
+T=1;S=0.
+
+S'=0(TT-1)=0; T'=T(T+1).
+
+thus eq. (t,T and t,S) are (0,1 and 0,0).
+
+Week 8.
+
+Chapter 2.1:
+1; 2; 3; 4; 5; 6; 7(a); 8(a)(b).
+
+Given these two systems: 
+
+dx/dt = 10x(1-(x/10)-20xy ; dy/dt = -5y+xy/20 
+
+dx/dt = (1-(x/10)-2y)/10x ; dy/dt = (x-5)/20y
+
+dx/dt = 3-10y/10x ; dy/dt = (15-y+25x)/y = (3-5x)/5y -1
+
+1. 
+One system has very large predators and very small prey,
+
+the other system has very small predators and very large prey.
+
+Since large prey are killed very slowly, they should have a larger
+
+denominator, thus y is the large prey in system 1, 
+
+and y is the small prey in system 2.
+
+2. Find all eq. for the 4 equations.
+
+dx1/dt: 0, -1/10; dy1/dt: 0, 5
+
+dx2/dt: 0, -3; dy2/dt: 0, 3/5.
+
+3. Suppose that predators are extinct at t=0, for each system, verify that
+
+these systems wont evolve new predators.
+
+If y=0, then neither dx or dy will move in the y direction. 
+
+they may still move in the t direction.
+
+4. 5. 6. repeats 3.
+
+7a. Based on this image, describe the predator prey relationship.
+
+dR/dt=2(1-(R/3))R-RF ; dF/dt = -2F+4RF
+
+       (1-(R/3))-F/2 ;         (2R-1) 
+
+F=15-16R, R=(F-15)/16.
+
+This curve moves inward constantly according to the illustration
+
+and converges to a single point. 
+
+8a. Sketch Rt and Ft curves for ABCD.
+
+Discussion:
+
+Rewrite the following equations using vector notations.
+
+0. dx/dt=3x-xy-y^2      dy/dt=(x+y)^2
+
+1. The vector valued function: P(t)=(x(t),y(t))
+
+2. The vector field notation: F(x,y)=(3x-xy-y^2,(x+y)^2)
+
+3. The rewritten particle system: dP/dt=F(P).﻿﻿﻿﻿﻿﻿﻿
+
+Week 9.
+  
+Chapter 2.2:
+7(a)(b); 9; 11; 15(a); 16(a).
+
+7a. for d^2y/dt^2 -y=0, D2y=y. y=dv/dt. this is a circle.
+
+y=cosx or y=sinx.
+
+b. Sketch the circle.
+
+9. dx/dt=x+2y, dy/dt=-y.
+
+dx/dt-x=2y, p=-1, y=e^S-1dt=e^-t, 
+
+x=(e^t)2Sy(e^-t)dt = -y^2, dx/dt=-2y, dy/dx = 1/2 
+
+11. find the vector field that corresponds to the equation and explain why.
+
+a. dy/dx=y-1/-x or -y/x-1, since y is constant in the first graph
+
+b. dy/dx=-y/x+2y or -y/x-2y, since x is deviating from the line,
+
+c. dy/dx=2y/x or y/2x since there is no deviation,
+
+d. dy/dx=y/(x^2)-1 or -y/(x^2)+1 since slope accelerates as y decreases.
+
+15a. find the eq. for Dz=cosw and Dw=w-z dt.
+
+dz/dw = cosw/w-z, w=z, w=1, w=nz, w=n.
+
+16a. find the eq. for Dy=x(1-x^2)-y and Dx=y dt.
+
+dy/dx=(x/y)(1-x^2)-1, x=0, y=0, x=1. 
+
+Discussion
+
+Please describe how to solve the second order differential equation:
+
+ddy/dtt - 3dy/dt + 2y = 0
+
+I dont want to give away the answer..;
+
+1. We notice that the rate of an oscillation takes the form ae^st when we observe newton's law of cooling:
+
+dy/dt=-(y-c)kt, S1/(y-c)dy=-kSt, ln|y-c|=-(k/2)(t^2), |-- (y=(e^-ktt/2﻿)+c).
+
+2. Thus the degree of the derivative takes the form of polynomial s:
+
+(D^2)y-3Dy+2y=0=ae^st(s^2-3s+2), e^-st=a(s-1)(s-2), (s-1)(s-2)=ya.
+
+Now we have the roots and the general forms. s=1 and s=2, thus y=ae^-t and ae^-2t.
+
+ya.
+
+Assignment 9 (week 10)
+Posted on: Thursday, November 16, 2017 9:17:42 PM EST
+Due Date: 11/30
+
+Chapter 2.3:
+9; 10(a)(b);
+
+9. a cube is connected by 2 springs to 2 walls spaced
+evenly apart. Write a second order differential equation
+for the cube at time t.
+
+(as^2+bs+c)e^-st=m{1+2}ddy/dtt+b{1+2}dy/dt+k{1+2}y=0.
+
+10a. Convert the Second order system to a first order system.
+
+let ddy/dtt=dv/dt, m{1+2}dv/dt+b{1+2}dy/dt+k{1+2}y=0.
+
+b. Find the equillibrium point of this system.
+
+The equillibrium point should be when a(D^4)y=-(b(D^3)y+c(D^2)y+dDy+ey).
+
+Chapter 3.1:
+6; 9; 16; 24; 25.
+
+6. rewrite this linear system in matrix form.
+
+dx/dt=3y;dy/dt=3piy-.3x
+dV/dt=(3,0;3pi,-.3).
+
+9. rewrite this linear system in component form.
+
+(dx/dt,dy/dt)=(0,b;h,-1)(x;y)
+AV=(0x+by;hx-y).
+
+16. rewrite this equation in linear form and matrix form.
+
+(D^2)y+pDy+qy=0
+(s^2+ps+q)e^-st=0
+Dv+pDy+qy=0
+e^st=(0;1,p,q;0)
+
+24. for the function dY/dt=(2,0;1,1)Y, 
+
+a. Show that (0;e^t) and (e^2t;e^2t) are both solutions.
+
+ln|Y|=S(2,0;1,1)dt, Y1=e^(2y1+0y2), Y2=e^(y1+y2). 
+
+Thus, (e^2t;0) and (e^t;e^t) are both solutions.
+
+2(0)+0e^t=0, 1(0)+e^t=0,  2e^2t, 2e^2t
+
+2e^2t, e^2t, 2e^t, 2e^t: these functions do not cancel.
+
+The solution is correct.
+
+b. Solve for Y(0)=(-2;-1).
+
+dY/dt=2(-2)-0=-4, 1(-2)+1(-1)=-3.
+
+25. Consider the system [dY/dt=(1,-1;1,3)Y].
+
+a. Show that Y(t)=(t(e^2t);-(t+1)e^2t).
+
+te^2t+(t+1)e^2t=(2t+1)e^2t, te^2t-3(t+1)e^2t=-e^2t(2t+1).
+
+Y1+Y2=0.
+
+b. Solve the initial value problem: DY=(1,-1;1,3)Y, Y(0)=(0;2)
+
+DY=[(te^2t+(t+1)e^2t);(te^2t-3(t+1)e^2t)] for Y(0)=(0;2).
+
+DY=(((0+1)k1=0);((0-3)k2=2))::(k1=0;k2=-2/3).
+
+Posted by: Cheng Chang
+Posted to: 201730 Fall MATH-362-DFB (CRN-11333.201730)
+Assignment 10
+Posted on: Thursday, November 30, 2017 8:32:33 PM EST
+Due date: Thursday (12/7)
+ 
+Chapter 3.2:
+3(a)(b)(e); 12; 19; 20(a)(b)(e)
+ 
+Hint: For section 3.2 #20, recall the differential equation that governs the spring motion
+m fraction numerator d squared y over denominator d t squared end fraction plus b fraction numerator d y over denominator d t end fraction plus k y equals 0
+
+3. (x',y')=(-5,-2;-1,-4)(x,y)=(-5x-2y;-x-4y).
+
+a. XV=(-5-s)(-4-s)-(-2)(-1)=20+5s+4s+ss-2=ss+9s+18. (s=-3,-6).
+
+b. -5x-2y=-3x1=-6x2, -1x-4y=-3y1=-6y2, x1=y, x2=2y, y1=-x, y2=-x/2.
+
+e. k1(y-x)+k2(2y-x/2)=0.
+
+12. for (3,0;1,-2):
+a. (1,0)->k1=-1, k2=0
+b. (0,1)->k1=0, k2=-1
+c. (2,2)->k1=-2, k2=-2 
+
+19a. y''+py'+qy=v'+py'+qy=0.
+b. (e^-st)(ss+ps+q)=ay.
+c. ss+(p1+p2)s+p1p2-c1c2->(p1-s,c1;p2-s,c2). 
+[-(p1+p2)+-[(p1+p2)(p1+p2)-2(1)(p1p2-c1c2)]^(1/2)]/2 are the 2 eigenvalues.
+d. for p and q to result in 2 distinct, real eigenvalues, the sum of p must be the product of q.
+e. p1(-p2)=-p1p2, so q must be +.
+
+20. 5y''+4y'+y=0
+a. the eigenvalues are (0,5;4,1)(y,v). (0-s)(1-s)-20=0-0-s+ss-20=ss-s-20.
+s=(1+-(1-4(1)(20))^(1/2))/2=(1/2)(1+-rad79) rad((1+-79)/4)=rad(20or19.5).
+b. 5y=y1rad20 or y2rad19.5, 4v+y=v1rad20 or v2rad19.5.
+c. 
+d. 
+e. y1 and v1 differs only slightly from y2 and v2, y differs more strongly from v, thus, 
+both y and v shrink as they diverge outward, it forms an oval.
+
+Discussion 10: Find the general solution for A=(-2,-3;-2,-3).
+
+We can start by finding the eigenvalues of matrix A by 
+
+a. Finding the determinant of the matrix: XA=(-2-s)(-2-s)-9=0.
+
+4+4s+ss-9﻿﻿﻿, thus ss+4s-5=0, since there are no p whose sum multiplies to make q, we must use the quadratic formula.
+
+(-4+-(16-4(1)(-5))^(1/2))/2(1)=(-2+-3), or s1=-5, s2=1.
+
+b. Then we may form the corresponding the eigenvectors:
+
+-2x-3y=-5x1=x2, -3x-2y=-5y1=y2  ::   x1=y, x2=-y, y1=x, y2=-x.
+
+3. k1(y+x)-k2(y+x)=0 is the general solution for this equation, k1=k2.
+
+
+Assignment 11
+Posted on: Thursday, December 7, 2017 8:30:10 PM EST
+Due Date: Thursday (12/14)
+
+Chapter 3.3: 19
+
+This system has the slope field dy/dt=y/2-2x, dx/dt=-y. Its slope matrix is (-2,1/2;0,-1).
+
+a. The equillibrium is unstable at the origin because this vector field is a saddle.
+
+b. cross product of (-2-s,1/2;0,-1-s)=(2+s)(1+s)-0=0. 2+3s+ss=0, s=-2,s=-1.
+
+-2x+y/2=-2(y1), 0-y=-2(x1), -2x+y/2=-y2, 0-y=-x2. 4x/5=y1, y/2=x1, 4x/3=y2, y=x2.
+
+c. A=(2,1): 1/2. B=(1,-2): -2. C=(-2,2): -1. D=(2,0): 0.  
+
+ Chapter 3.4:
+10(a)(b); 13(a)(b); 23(a)(b).
+
+10. AY=(2,2;-4,6)Y.
+
+a. gq.=2(k1(x+y)+k2(3y-2x)).
+
+b. Y(0)=(1,1): 2(k1(1+1)+k2(3-1))=2(2k1+2k2)=4(k1+k2).
+
+13. AY=(2,-6;2,1)Y.
+
+a. gq.=2k1(x-3y)+k2(2x+y)
+
+b. Y(0)=(2,1): 2k1(2-3)+k2(4-2)=2(k1+k2).
+
+23. y''+py'+qy=0
+
+a. This equation as a first order linear system is: v'+py'+qy=0.
+
+b. For the eigenvalues to be complex, p cannot be the sum of what multiplies to get q.
+
+c. A spiral sink has negative components and imaginary eigenvalues.
+
+d. A spiral is clockwise when x2 is negative.
+
+Discussion: use Euler's formula to rewrite the function e^(rad3-5i).
+
+Euler's formula for the for e^xi corresponds to cos(x)+isin(x),
+
+e^3^(1/2)/e^-5i=(e^rad3)cos(-5)+i(e^rad3﻿)sin(-5),
+
+or (e^3^(1/2))/(cos(5)+isin(5)). ﻿﻿﻿﻿﻿﻿﻿﻿﻿
+
+Professor, I would like to ask for a question from a higher math class,
+since the discussion section is over.
+
+Final Review
+Posted on: Thursday, December 14, 2017 7:23:02 PM EST
+To review for the final, look at all the homework problems from Chapter 2 & 3, and all the problems from Midterm exam, plus the following
+
+Chapter 3.5:
+7(a)(b); 8(a)(b); 22.
+
